@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:padding="25dp"
+        android:hint="Enter Your Salary (Per Month)"
+        android:textSize="25dp"
+        android:id="@+id/et_salary"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Tax"
+        android:layout_margin="25dp"
+        android:padding="25dp"
+        android:textSize="25dp"
+        android:id="@+id/btn_calculate"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:padding="25dp"
+        android:editable="false"
+        android:id="@+id/et_tax"
+        android:textSize="25dp"/>
+
+
+</LinearLayout>
